@@ -1,0 +1,16 @@
+/* Dark theme overrides */
+.navbar-dark {
+    background-color: #343a40 !important;
+}
+
+.navbar-light {
+    background-color: #f8f9fa !important;
+}
+
+.dark-blue {
+    background-color: midnightblue !important;
+}
+
+.light-green {
+    background-color: #28a745 !important;
+}

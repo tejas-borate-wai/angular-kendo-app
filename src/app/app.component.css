@@ -1,0 +1,4 @@
+:host ::ng-deep .k-grid {
+    width: 100%;
+    overflow-x: auto;
+}

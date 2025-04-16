@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg px-3 py-2 d-flex justify-content-between align-items-center text-dark">
+    <!-- Left: Logo + Logo Name -->
+    <div class="d-flex align-items-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXEv3nGxnOZg502EI0qqbJyi5nDQyCku7AOSxA-h0d8hDhSuqLKlEfPde&s=10"
+            alt="logo" class="me-2" style="width: 30px; height: 30px;" />
+        <h5 class="fs-5 fw-bold mt-2">Task Management</h5>
+    </div>
+
+    <!-- Right: Icons + Profile -->
+    <div class="d-flex align-items-center gap-2">
+        <!-- Theme Toggle Button -->
+        <button class="btn dark-blue p-1 px-2 rounded text-white" (click)="toggleTheme()"
+            style="background-color: midnightblue;">
+            <i class="bi" [ngClass]="isDarkTheme ? 'bi-moon-fill' :'bi-sun-fill' "></i>
+        </button>
+
+        <div class="dark-blue p-1 px-2 rounded">
+            <i class="bi bi-envelope-fill text-white"></i>
+        </div>
+
+        <div class="dark-blue p-1 px-2 rounded">
+            <i class="bi bi-gear-fill text-white"></i>
+        </div>
+
+        <div class="position-relative dark-blue p-1 px-2 rounded">
+            <i class="bi bi-bell-fill text-white"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill light-green"
+                style="font-size: 13px;">
+                67
+            </span>
+        </div>
+
+        <div class="dark-blue p-1 px-2 rounded">
+            <i class="bi bi-arrow-repeat text-white"></i>
+        </div>
+
+        <button class="btn dark-blue d-flex align-items-center px-2 py-0 text-white pe-3">
+            <span
+                class="rounded-circle bg-secondary text-white fw-bold d-flex  justify-content-center align-items-center me-3"
+                style="width: 25px; height: 25px;">
+                A
+            </span>
+            <div class="text-start">
+                <div class="small">admin</div>
+                <div class="small text-white">Admin</div>
+            </div>
+        </button>
+    </div>
+</nav>

@@ -1,1 +1,142 @@
-/* You can add global styles to this file, and also import other style files */
+.dark-blue {
+    background-color: midnightblue;
+}
+
+.light-green {
+    background-color: rgb(115, 168, 7) !important;
+}
+
+.light-green:hover {
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid black !important;
+    color: black !important;
+}
+
+/* Default Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Example for Navbar */
+.navbar {
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color);
+}
+
+body.dark-theme .navbar {
+    --navbar-bg-color: #1f1f1f;
+    --navbar-text-color: #ffffff;
+}
+
+body.light-theme .navbar {
+    --navbar-bg-color: #f8f9fa;
+    --navbar-text-color: #000000;
+}
+
+.light-green:hover {
+    background-color: rgba(56, 139, 0, 0.8);
+    border: 1px solid black;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    --bg-color: #343a40;
+    --text-color: #ffffff;
+    --border-color: #6c757d;
+    --badge-bg-color: #28a745;
+    --badge-text-color: #ffffff;
+    --link-bg-color: #495057;
+    --link-text-color: #ffffff;
+    --button-bg-color: #495057;
+    --button-text-color: #ffffff;
+    --input-bg-color: #495057;
+    --input-text-color: #ffffff;
+    --select-bg-color: #495057;
+    --select-text-color: #ffffff;
+}
+
+/* Apply dark theme variables */
+.dark-theme .nav {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+.dark-theme .nav-link {
+    background-color: var(--link-bg-color) !important;
+    color: var(--link-text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.dark-theme .nav-link:hover {
+    opacity: 0.9;
+}
+
+.dark-theme .badge {
+    background-color: var(--button-bg-color) !important;
+    color: var(--button-text-color) !important;
+}
+
+.dark-theme .container-fluid {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.dark-theme h5,
+.dark-theme small {
+    color: var(--text-color) !important;
+}
+
+.dark-theme .form-check-input {
+    background-color: var(--input-bg-color) !important;
+    color: var(--input-text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.dark-theme .form-check-label {
+    color: var(--text-color) !important;
+}
+
+.dark-theme .btn {
+    background-color: var(--button-bg-color) !important;
+    color: var(--button-text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.dark-theme .btn:hover {
+    opacity: 0.9;
+}
+
+.dark-theme .form-select {
+    background-color: var(--select-bg-color) !important;
+    color: var(--select-text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.dark-theme .form-control {
+    background-color: var(--input-bg-color) !important;
+    color: var(--input-text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.dark-theme .kendo-grid {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.dark-theme .kendo-grid .k-grid-header {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.dark-theme .kendo-grid .k-grid-content {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
